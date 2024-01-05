@@ -1,0 +1,145 @@
+@import url("reset.css");
+
+body, html {
+   height: 100%;
+}
+
+h1 {
+   font-size: 2em;
+   margin: 0.67em 0;
+}
+
+body {
+   background-image: url('archivos/fondo.gif');
+}
+
+.titulo {
+   font: 14px Verdana;
+   font-weight: bold;
+   font-size: 1.5em;
+   text-transform: capitalize;
+   letter-spacing: 0.1em;
+   margin-left: 10px;
+   color: #000033;
+}
+
+a {
+   text-decoration: none;
+}
+
+#publicidad {
+   position: fixed;
+   background-color: #8A8A8A;
+   opacity: 0.90;
+   filter:alpha(opacity=90);
+   height: 100%;
+   width: 100%;
+}
+
+#imagen {   
+   width: 100%;
+   height: 100%;
+   text-align: center;
+}
+
+#img {
+   height: 100%;
+}
+
+#cerrar{
+   position: absolute;
+   right: 0.9em;
+   top: 0.9em;
+}
+
+#a.cerrar{
+	text-decoration: none;
+}
+
+#contenedor{
+   border: 2px solid #cccccc;
+   text-align: left;
+   width: 704px;
+   margin: auto;
+   background-color: #ffffff;
+}
+
+#tabla_principal {
+   width: 700px;
+   margin: auto;
+   line-height: 0px;
+}
+
+#menu {
+   background: #F5F4C3 url(archivos/fondonav.gif);
+   padding: 0.35em 0.35em 0.35em 0.35em;
+   border-top: 1px solid #cccccc;
+   border-bottom: 1px solid #cccccc;
+   font: 0.9em Verdana;
+}
+
+.texto {
+   background-color: #ffffff;
+   text-align: justify;
+   vertical-align: top;
+   font: 0.9em Verdana;
+   color: #000033;
+   margin: 0.71em;
+}
+
+.celda_info {
+   background-color: #EBF2FE;
+   font: 0.6em Verdana;
+   padding: 0.9em 0.9em 0.9em 0.9em;
+   color: #000000;
+   text-align: center;
+}
+
+ul {
+   list-style-image: url('archivos/bullet.gif');
+   font: 1.3em Georgia;
+}
+
+.lista {
+   margin-top: 0px;
+   padding-left: 35px;
+}
+
+.cabecera{
+   background-color: #5B96F7;
+   text-transform: uppercase;
+   font: bold 0.7em Arial;
+   padding: 0.9em 0.9em 0.9em 0.9em;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+a:link {
+   color: #494E6B;
+}
+
+a:hover {
+   color: #3F7DE3;
+   text-decoration: underline;
+}
+
+#submenu{
+   width: 25%;
+   height: 336px;
+   border: 1px solid #CCCCCC;
+   background-color: #EBF2FE;
+   float: left;
+}
+
+#enlace_publicidad {
+   text-decoration: none;
+}
+
+#boton_cerrar {
+   color: #FFFFFF;
+}
+
+#div_cuerpo {
+   width: 75%;
+   float: left;
+}
